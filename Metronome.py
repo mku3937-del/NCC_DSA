@@ -1,2 +1,2 @@
 n=int(input())
-print(n/4.0)
+print(n/4)
