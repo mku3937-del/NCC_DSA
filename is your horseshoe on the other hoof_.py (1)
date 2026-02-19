@@ -1,0 +1,8 @@
+s=list(map(int,input().split()))
+c=[]
+d=0
+for x in s:
+    if x not in c:
+        c.append(x)
+print(len(s)-len(c))        
+    
